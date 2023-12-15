@@ -51,6 +51,9 @@ export default function Home() {
         setCity={setFilterCity}
         setVIndustry={setFilterIndustryVertical}
         setInvestmentType={setFilterInvestmentType}
+        city={filterCity}
+        vindustry={filterIndustryVertical}
+        investmentType={filterInvestmentType}
       />
 
       <div className="flex justify-center mt-5 bg-transparent items-center gap-3 shadow-sm">

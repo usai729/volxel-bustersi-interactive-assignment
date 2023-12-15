@@ -2,7 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Option, Select } from "@mui/joy";
 
-export default function Nav({ setCity, setVIndustry, setInvestmentType }) {
+export default function Nav({
+  setCity,
+  city,
+  setVIndustry,
+  vindustry,
+  setInvestmentType,
+  investmentType,
+}) {
   const handleCityChange = (event, newValue) => {
     setCity(newValue);
   };
@@ -35,7 +42,7 @@ export default function Nav({ setCity, setVIndustry, setInvestmentType }) {
               className="outline-none rounded-sm text-black"
               placeholder="City"
               onChange={handleCityChange}
-              value=""
+              value={city}
             >
               <Option value="" disabled>
                 City
@@ -51,7 +58,7 @@ export default function Nav({ setCity, setVIndustry, setInvestmentType }) {
               className="outline-none rounded-sm text-black"
               placeholder="Industry Vertical"
               onChange={handleIndustryChange}
-              value=""
+              value={vindustry}
             >
               <Option value="" disabled>
                 Industry Vertical
@@ -66,7 +73,7 @@ export default function Nav({ setCity, setVIndustry, setInvestmentType }) {
               className="outline-none rounded-sm text-black"
               placeholder="Investment Type"
               onChange={handleInvestmentTypeChange}
-              value=""
+              value={investmentType}
             >
               <Option value="" disabled>
                 Investment Type
