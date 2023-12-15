@@ -56,12 +56,9 @@ The backend exposes an API to retrieve investment records:
 - Mongoose Documentation: [https://mongoosejs.com/docs/](https://mongoosejs.com/docs/)
 - CSVtoJSON GitHub Repository: [https://github.com/iuccio/csvToJson](https://github.com/iuccio/csvToJson)
 
-Dive into the documentation links to learn more about each technology and its capabilities.
-
-**Happy exploring!**
-
 _Additional Notes:_
 
 - Consider using Markdown formatting for better readability and clarity.
 - Feel free to customize the readme code to match your project's specific features and branding.
 - The UI is kept simple and the focus is on implementation to showcase the skills.
+- Dataset from <a href="https://github.com/DeepakKumarGS/Indian-Startup-Funding-/tree/gh-pages">This Repository</a>
