@@ -30,7 +30,7 @@ A web-based dashboard for exploring and analyzing startup investment data.
 
 ## Getting Started
 
-1. Clone the repository: `git clone [repository-url]`
+1. Clone the repository: `git clone https://github.com/usai729/volxel-bustersi-interactive-assignment`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm start`
 4. Open in your browser: [http://localhost:3000](http://localhost:3000)
@@ -39,7 +39,7 @@ A web-based dashboard for exploring and analyzing startup investment data.
 
 The backend exposes an API to retrieve investment records:
 
-`http://localhost:<your-port>/api`
+`http://localhost:<port>/api`
 
 ## Backend Setup
 
