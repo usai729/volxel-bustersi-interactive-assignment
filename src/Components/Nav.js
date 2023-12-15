@@ -24,6 +24,11 @@ export default function Nav({ setCity, setVIndustry, setInvestmentType }) {
           </Link>
         </div>
 
+        {/*
+         *
+         * More filters can be added from the backend. If there are many varities
+         *
+         */}
         <ul className={`flex flex-wrap gap-4 items-center p-2 w-max`}>
           <li>
             <Select
@@ -39,7 +44,6 @@ export default function Nav({ setCity, setVIndustry, setInvestmentType }) {
               <Option value="Hyderabad">Hyderabad</Option>
               <Option value="Mumbai">Mumbai</Option>
               <Option value="New Delhi">New Delhi</Option>
-              <Option value="Any">Any</Option>
             </Select>
           </li>
           <li>
@@ -55,7 +59,6 @@ export default function Nav({ setCity, setVIndustry, setInvestmentType }) {
               <Option value="Consumer Internet">Consumer Internet</Option>
               <Option value="Technology">Technology</Option>
               <Option value="eCommerce">eCommerce</Option>
-              <Option value="Any">Any Industry</Option>
             </Select>
           </li>
           <li>
@@ -70,7 +73,6 @@ export default function Nav({ setCity, setVIndustry, setInvestmentType }) {
               </Option>
               <Option value="Seed Funding">Seed Funding</Option>
               <Option value="Private Equity">Private Equity</Option>
-              <Option value="Any">Any</Option>
             </Select>
           </li>
         </ul>
