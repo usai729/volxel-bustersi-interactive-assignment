@@ -44,7 +44,7 @@ The backend exposes an API to retrieve investment records:
 ## Backend Setup
 
 1. Install dependencies: `npm install`
-2. Start the server: `npm start` (runs at http://localhost:<your-port>/)
+2. Start the server: `npm start` (runs at http://localhost:\<your-port>)
 3. The server can also import data from a CSV file (`startup_funding.csv`) in the parent directory.
 
 ## Explore More
