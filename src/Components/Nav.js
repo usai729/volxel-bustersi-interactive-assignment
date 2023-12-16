@@ -87,8 +87,3 @@ export default function Nav({
     </>
   );
 }
-
-/**
- * 
-zpxOAnBS1peLNQ8c
- */
