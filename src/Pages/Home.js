@@ -28,7 +28,7 @@ export default function Home() {
 
     try {
       let response = await fetch(
-        `http://localhost:3001/api/get?IndustryVertical=${filterIndustryVertical}&SubVertical=&Location=${filterCity}&InvestmentType=${filterInvestmentType}&page=${page}&pageSize=21`
+        `https://server-pi-livid.vercel.app/api/get?IndustryVertical=${filterIndustryVertical}&SubVertical=&Location=${filterCity}&InvestmentType=${filterInvestmentType}&page=${page}&pageSize=21`
       );
       let processed = await response.json();
 
