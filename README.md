@@ -62,3 +62,4 @@ _Additional Notes:_
 - Feel free to customize the readme code to match your project's specific features and branding.
 - The UI is kept simple and the focus is on implementation to showcase the skills.
 - Dataset from <a href="https://github.com/DeepakKumarGS/Indian-Startup-Funding-/tree/gh-pages">This Repository</a>
+- Hosting [https://volxel-bustersi-interactive-assignment.vercel.app/](https://volxel-bustersi-interactive-assignment.vercel.app/)
